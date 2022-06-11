@@ -12,7 +12,7 @@ void setup(){
  
 }
 void draw(){
-  noCursor();
+  //noCursor();
   println(frameCount);
   println(mouseX,mouseY);
   
