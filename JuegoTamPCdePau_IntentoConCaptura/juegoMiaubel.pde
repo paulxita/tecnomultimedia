@@ -46,6 +46,12 @@ class Juego {
 
   void nombreJuego() {
     image (pantNombre, 0, 0);
+    for (Blob b : receptor.blobs) {
+
+    if (b.entro) {
+        pantalla = 1;
+    }
+    }
   }
 
   void ganar() {
@@ -72,9 +78,4 @@ class Juego {
     admin.dibujar();
   }
 
-  void keyPressed() {
-    if (key == 'j' || key == 'J' ) {
-      pantalla = 1;
-    }
-  }
 }

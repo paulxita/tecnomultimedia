@@ -128,6 +128,6 @@ void contactStarted(FContact c) {
   mundo.remove(ball);
 }
 
-void keyPressed() {
-  juegoMiaubel.keyPressed();
+void iniciarjuego() {
+  juegoMiaubel.nombreJuego();
 }
